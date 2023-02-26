@@ -1,0 +1,51 @@
+import 'package:get/get.dart';
+
+class MyTranslation extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+        "ar": {
+          "1": "صانع كلمات المرور",
+          "2": "مستوى أمان كلمة السر",
+          "3": "متوسط",
+          "4": "عالي",
+          "5": "فائق",
+          "6": "عناصر كلمة السر",
+          "7": "اختر العناصر",
+          "8": "حروف فقط",
+          "9": "مع الأرقام",
+          "10": "مع الرموز",
+          "11": "مع كليهما",
+          "12": "صنع كلمة السر",
+          "13": "كلمة السر المصنوعة",
+          "14": "الإعدادات",
+          "15": "اللغة",
+          "16": "حول التطبيق",
+          "17": "تم تطوير هذا التطبيق من طرف Pianex.",
+          "18": "كل الحقوق محفوظة 2023.",
+          "19": "العربية",
+          "20": "الإنجليزية",
+        },
+        "en": {
+          "1": "Password Generator",
+          "2": "Password security level",
+          "3": "Medium",
+          "4": "High",
+          "5": "Ultra",
+          "6": "Password elements",
+          "7": "Choose elements",
+          "8": "Letters only",
+          "9": "With numbers",
+          "10": "With symbols",
+          "11": "With both",
+          "12": "Generate password",
+          "13": "Generated password",
+          "14": "Settings",
+          "15": "Language",
+          "16": "About",
+          "17": "This app is made by Pianex.",
+          "18": "All rights reserved 2023.",
+          "19": "Arabic",
+          "20": "English",
+        },
+      };
+}
